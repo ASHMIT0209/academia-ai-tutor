@@ -1,20 +1,18 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Academia AI
 
-# Run and deploy your AI Studio app
+Academia AI is a comprehensive, ML-powered academic success dashboard designed to help students and faculty monitor performance, predict academic risks, and provide personalized growth paths.
 
-This contains everything you need to run your app locally.
+## Key Features
 
-View your app in AI Studio: https://ai.studio/apps/e055e80e-b932-4f65-be2a-5d4c77881d01
+- **ML Diagnostic Profile**: Analyzes student data (CGPA, Attendance, Assignments, etc.) using multiple machine learning models (Neural Networks, Random Forest, Logistic Regression) to assess academic standing.
+- **Personalized Roadmap**: Generates a week-by-week intervention plan tailored to the student's unique academic and lifestyle metrics.
+- **Curated Learning Resources**: Delivers hand-picked study materials, tools, and courses relevant to the student's stream and identified risk factors.
+- **Real-time AI Tutor**: Voice-enabled assistance for instant guidance on academic performance and roadmap steps.
+- **Faculty & Admin Portals**: Cohort-level metrics, system health monitoring, and administrative controls for educational institutions.
 
-## Run Locally
+## Technology Stack
 
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- **Frontend**: React, TypeScript, Tailwind CSS, Lucide Icons, Framer Motion.
+- **Machine Learning**: TensorFlow.js for local browser-side inference.
+- **Intelligence**: Advanced Language Models for personalized plan generation and tutoring.
+- **Development**: Vite.

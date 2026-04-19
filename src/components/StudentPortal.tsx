@@ -422,7 +422,7 @@ export default function StudentPortal({ onLogout }: StudentPortalProps) {
                 isGeneratingRoadmap ? (
                   <div className="py-12 flex flex-col items-center justify-center gap-4 text-[var(--text3)]">
                     <Loader2 className="w-8 h-8 animate-spin text-[var(--purple)]" />
-                    <div className="text-[13px] font-medium animate-pulse">Personalizing your academic plan with Gemini AI...</div>
+                    <div className="text-[13px] font-medium animate-pulse">Personalizing your academic plan with Advanced AI...</div>
                     <div className="text-[11px] max-w-[280px] text-center opacity-60">Analyzing your ML diagnostic profile to craft specific academic targets and resources.</div>
                   </div>
                 ) : (
