@@ -1,0 +1,5 @@
+{
+  "name": "Academia AI",
+  "description": "ML-powered academic success dashboard with real-time AI tutor.",
+  "requestFramePermissions": ["microphone"]
+}
